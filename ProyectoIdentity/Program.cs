@@ -13,7 +13,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-
+//Linea para url de retorno al acceder
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = new PathString("/Cuentas/IniciarSesion");
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

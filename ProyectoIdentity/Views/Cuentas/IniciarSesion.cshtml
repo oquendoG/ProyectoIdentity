@@ -5,7 +5,7 @@
 }
 
 <h1>Inicio de sesión de usuario</h1>
-<form asp-action="IniciarSesion" method="post" role="form">
+<form asp-action="IniciarSesion" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
     <div class="text-danger" asp-validation-summary="ModelOnly"></div>
 
     <div class="form-group">

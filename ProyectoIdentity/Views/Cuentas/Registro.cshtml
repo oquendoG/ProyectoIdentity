@@ -4,7 +4,7 @@
 }
 
 <h1>Registro usuario</h1>
-<form asp-controller="Cuentas" asp-action="Registro" method="post" role="form">
+<form asp-controller="Cuentas" asp-action="Registro" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
     <div class="text-danger" asp-validation-summary="ModelOnly"></div>
 
     <div class="form-group">

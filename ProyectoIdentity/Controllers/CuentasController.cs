@@ -26,8 +26,9 @@ namespace ProyectoIdentity.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> Registro()
+        public async Task<IActionResult> Registro(string returnurl)
         {
+            ViewData["RedirectUrl"] = returnurl;
             var RegistroVM = new RegistroViewModel();
 
             return View(RegistroVM);
@@ -35,8 +36,11 @@ namespace ProyectoIdentity.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Registro(RegistroViewModel registro)
+        public async Task<IActionResult> Registro(RegistroViewModel registro, string returnurl)
         {
+            ViewData["RedirectUrl"] = returnurl;
+            returnurl = returnurl ?? Url.Content("~/");
+
             if (ModelState.IsValid)
             {
                 var usuario = new AppUsuario()
@@ -59,7 +63,7 @@ namespace ProyectoIdentity.Controllers
                 if (resultado.Succeeded)
                 {
                     await signInManager.SignInAsync(usuario, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    return LocalRedirect(returnurl);
                 }
 
                 ValidarErrores(resultado);
@@ -79,25 +83,31 @@ namespace ProyectoIdentity.Controllers
         }
 
         [HttpGet]
-        public IActionResult IniciarSesion()
+        public IActionResult IniciarSesion(string returnurl = null)
         {
+            ViewData["ReturnUrl"] = returnurl;
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> IniciarSesion(AccesoViewModel model)
+        public async Task<IActionResult> IniciarSesion(AccesoViewModel model, string returnurl = null)
         {
-           
+
+            ViewData["ReturnUrl"] = returnurl;
+            returnurl = returnurl ?? Url.Content("~/");
 
             if (ModelState.IsValid)
             {
-                var resultado = await signInManager.PasswordSignInAsync(model.Email, model.Contraseña, model.RemerberMe, lockoutOnFailure: false);
+                var resultado = await signInManager.
+                    PasswordSignInAsync(model.Email, model.Contraseña, model.RemerberMe, 
+                    lockoutOnFailure: false);
 
                 if (resultado.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
-                } else
+                    return LocalRedirect(returnurl);
+                } 
+                else
                 {
                     ModelState.AddModelError(string.Empty, "Usuario o contraseña incorrectos");
                     return View(model);
