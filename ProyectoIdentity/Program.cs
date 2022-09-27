@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using ProyectoIdentity.Datos;
+using ProyectoIdentity.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,13 +13,26 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 //servicio de indentity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequiredLength = 8;
+    options.Password.RequireUppercase = true;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+    options.Lockout.MaxFailedAccessAttempts = 6;
+});
 
 //Linea para url de retorno al acceder
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = new PathString("/Cuentas/IniciarSesion");
+    options.AccessDeniedPath = new PathString("/Cuentas/Bloqueado");
 });
+
+//Servcio de emails
+builder.Services.AddTransient<IEmailSender, MailJetEmailSender>();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,3 +1,12 @@
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.csproj.AssemblyReference.cache
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.AssemblyInfoInputs.cache
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.AssemblyInfo.cs
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.csproj.CoreCompileInputs.cache
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.MvcApplicationPartsAssemblyInfo.cs
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.MvcApplicationPartsAssemblyInfo.cache
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.RazorAssemblyInfo.cache
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.RazorAssemblyInfo.cs
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\appsettings.Development.json
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\appsettings.json
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\ProyectoIdentity.staticwebassets.runtime.json
@@ -7,9 +16,11 @@ F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\P
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\ProyectoIdentity.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\ProyectoIdentity.pdb
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Humanizer.dll
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Mailjet.Client.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -17,6 +28,7 @@ F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\M
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Identity.Client.dll
@@ -26,6 +38,7 @@ F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\M
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\Newtonsoft.Json.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\System.Drawing.Common.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -45,14 +58,6 @@ F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\r
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.csproj.AssemblyReference.cache
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.GeneratedMSBuildEditorConfig.editorconfig
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.AssemblyInfoInputs.cache
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.AssemblyInfo.cs
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.csproj.CoreCompileInputs.cache
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.MvcApplicationPartsAssemblyInfo.cache
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.RazorAssemblyInfo.cache
-F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\ProyectoIdentity.RazorAssemblyInfo.cs
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\staticwebassets.build.json
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\staticwebassets.development.json
 F:\Proyectos .NET\Proyectos\ProyectoIdentity\ProyectoIdentity\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
